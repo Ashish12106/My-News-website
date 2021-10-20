@@ -5,7 +5,7 @@ export class navbar extends Component {
     return (
       <div>
          <div>
-      <nav className="navbar navbar-expand-lg  navbar-dark bg-dark mb-1">
+      <nav className="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark mb-1">
      <div className="container-fluid" >
       <Link className="navbar-brand my-2" to="/">Daily Buggal News </Link>
      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
